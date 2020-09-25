@@ -1,0 +1,370 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header css */
+.logo{
+    display: block;
+    height: auto;
+    width: 48px;
+}
+a.navbar-brand.logo-heading {
+    font-weight: 700;
+    
+}
+a.navbar-brand.logo-heading:hover{
+    color: #CCCCCC;
+}
+ul.navbar-nav.mx-auto.mb-2.mb-lg-0.jon-menu {
+    
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 9px;
+}
+/* banner section */
+.banner-section{
+ background: url(image/mbr-10.jpg) no-repeat center center;
+ background-size: cover;
+ height: 530px;
+ width: auto;
+ position: relative;
+ z-index: 1;
+}
+.banner-section::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  left: 0;
+  top: 0;
+  background: rgba(31, 26, 26, 0.5);
+  z-index: -1;
+}
+.banner-section-text{
+    margin-top: 202px;
+}
+.banner-section-text h4{
+    font-size: 20px;
+    color: #EAFFF9;
+    font-weight: 400;
+
+}
+.banner-section-text h2{
+    font-size: 36px;
+    display: block;
+    padding: 24px;
+    color: white;
+    font-weight: 600;
+
+}
+.form input :focus{
+    border: 0;
+}
+.form .input-btn{
+    height: 65px;
+    width: 344px;
+    border-radius: 14px;
+    padding: 29px 27px;
+    font-weight: 700;
+
+}
+.form .input-btn:hover{
+    background: white;
+    color: #6278DF;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(7, 44, 209, 0.5);
+}
+
+a.btn.btn-outline-primary.link {
+    height: 59px;
+    padding: 16px 41px;
+    font-weight: 700;
+    width: 211px;
+    background: #44bd32;
+}
+a.btn.btn-outline-primary.link:hover{
+    background: white;
+    color: #6278DF;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(66, 90, 194, 0.5);
+}
+/* service */
+.hello h2{
+    font-weight: 700;
+    font-size: 47px;
+    margin-top: 22px;
+}
+.hello p{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* improve-health css */
+.improve-health{
+    background: #F7F9FF;
+}
+.health-text h2{
+
+    font-size: 37px;
+    margin-top: 97px;
+}
+.health-text p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.health-img img{
+    margin-top: 64px;
+    height: 484px;
+    width: 382px;
+
+}
+/* application css */
+.application-section{
+  backgrou:white;
+  box-shadow:2.5px 4.33px 30px 0 rgba(202, 206, 224, 0.5); ;
+}
+.application-head{
+
+}
+.application-head h2{}
+.application-head p{}
+.application-section img{
+    width: 164px;
+    height: 251px;
+}
+.application-text{
+    width: 162px;
+}
+.application-section h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.application-section p{
+    line-height: 35px;
+}
+/* look application css */
+.look-head{
+    margin-top: 165px;
+    margin-bottom: 77px;
+}
+
+.look-head h2{
+    font-size: 44px;
+    font-weight: 800;
+}
+.look-section{
+    position: relative;
+    width: 100%;
+}
+
+.look-section::after{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(47, 47, 136, 0.5);
+    visibility: hidden;
+}
+.look-section:hover::after{
+    visibility: visible;
+}
+/* prising part css */
+.prising-section{
+    background: #F7F9FF;
+}
+
+.prising-iteam{
+    background: white;
+    width:414px;
+    height: 460px;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(66, 90, 194, 0.5);
+    margin-left: 65px;
+    box-sizing: border-box;
+}
+.prising-iteam h2{
+    font-size: 44px;
+}
+.prising-iteam h5{
+    margin-bottom: 44px;
+    margin-top: 40px;
+}
+.prising-iteam ul{
+    list-style: none;
+}
+.prising-iteam ul li{
+    font-size: 20px
+}
+.prising-iteam ul li span{
+    margin-right: 12px;
+    color: blue;
+}
+.prise-btn{
+    margin-top: 50px;
+}
+/* feed back css */
+.feedback-section{
+    height: auto;
+    margin-top: 154px;
+}
+.feedback{}
+.feedback h5{
+    font-size: 26px;
+    font-weight: 100;
+}
+.feedback h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+.feedback span{
+    color: gainsboro;
+    font-size:60px;
+
+}
+.feedback p{}
+.feedback img{
+    border-radius: 50%;
+    width: 72px;
+}
+
+.profile-image{
+    margin-left: 485px;
+
+}
+.prifile-text {
+    margin-right: 418px;
+    margin-top: 18px;
+}
+.prifile-text h4 {
+
+}
+.prifile-text small{
+  
+}
+/* history part css */
+.history-team{
+    background:#CCCCCC ;
+}
+.team-1{
+    margin-top: 59px;
+}
+.team-1 .card{}
+.team-1 .card img{
+    margin-bottom: 3px;
+    margin-top: -72px;
+    margin-left: 13px;
+   opacity: 1;
+}
+   
+.team-1 .card img:hover{
+    
+}
+
+}
+.card-body h4{
+    font-size: 20px;
+}
+.card-body h5{
+  
+    font-weight: 400;
+}
+.card-body p{
+    font-size: 15px;
+    margin-bottom: 32px;
+    margin-top: 13px;
+}
+.form-item{
+    margin-left: 173px;
+    margin-top: 73px;
+}
+.footer-part{
+    background: #F7F9FF;
+}
+/* responsive css */
+@media(max-width:992px){
+    .application-section img {
+        width: 256px;
+    }
+    .application-section h2 {
+        margin-left: -186px;
+    }
+    .application-section p {
+        margin-left: -189px;
+    }
+    .application-section {
+        margin-bottom: 15px;
+    }
+    .look-section {
+        margin-bottom: 10px;
+    }
+    .prising-iteam{
+        box-sizing: border-box;
+        margin-left: 40px;
+        width: 326px;
+    }
+    .profile-image {
+        margin-left: 259px;
+    }
+    .prifile-text {
+        margin-right: 215px;
+        margin-top: 9px;
+    }
+}
+@media(max-width:768px){
+    .hello h2 {
+        text-align: center;
+    }
+    .hello p {
+        text-align: center;
+    }
+    .health-text h2 {
+        font-size: 29px;
+        font-weight: 800;
+    }
+    .health-img img {
+        height: 100%;
+    
+    }
+    .application-head {
+        margin-top: 47px;
+    }
+    .application-head h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .application-head p {
+        font-size: 13px;
+    }
+    .application-text {
+        width: 31px;
+    }
+    .application-section h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .prising-iteam {
+        margin-bottom: 27px;
+        width: 100%;
+    }
+    .profile-image {
+        margin-left:173px;
+    }
+    .prifile-text {
+        margin-right: 106px;
+        margin-top: 14px;
+    }
+    .history-team {
+        margin-top: 31px;
+    }
+}
